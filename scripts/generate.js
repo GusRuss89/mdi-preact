@@ -14,14 +14,14 @@ for (let svgFile of svgFiles) {
   if (!path) continue;
 
   const fileContent =
-`import React from 'react';
+`import { h } from 'preact';
 
 const ${name}Icon = ({ width = 24, height = 24, viewBox = '0 0 24 24', className, children, ...props }) => {
   let classes = 'mdi-icon';
   if (className) classes += \` \${className}\`;
 
   return (
-    <svg {...props} width={width} height={height} viewBox={viewBox} className={classes}>
+    <svg {...props} width={width} height={height} viewBox={viewBox} class={classes}>
       <path d="${path}" />
     </svg>
   );

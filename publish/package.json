@@ -1,10 +1,10 @@
 {
-  "name": "mdi-react",
+  "name": "mdi-preact",
   "version": "2.0.46",
-  "description": "Material Design Icons for React",
+  "description": "Material Design Icons for Preact",
   "keywords": [
     "mdi",
-    "react",
+    "preact",
     "material",
     "design",
     "icons"
@@ -12,18 +12,18 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/levrik/mdi-react.git"
+    "url": "git@github.com:GusRuss89/mdi-preact.git"
   },
   "scripts": {
     "prepublish": "cd .. && yarn build && cd publish && cp ../README.md README.md && cp ../LICENSE LICENSE"
   },
-  "author": "Levin Rickert <me@levrik.io>",
+  "author": "Angus Russell <angus@syntropy.xyz>",
   "license": "(MIT AND OFL-1.1)",
   "bugs": {
-    "url": "https://github.com/levrik/mdi-react/issues"
+    "url": "https://github.com/GusRuss89/mdi-react"
   },
-  "homepage": "https://github.com/levrik/mdi-react",
+  "homepage": "https://github.com/GusRuss89/mdi-react",
   "peerDependencies": {
-    "react": ">=0.14.0"
+    "preact": "^8.2.5"
   }
 }
