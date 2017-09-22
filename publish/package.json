@@ -20,9 +20,9 @@
   "author": "Angus Russell <angus@syntropy.xyz>",
   "license": "(MIT AND OFL-1.1)",
   "bugs": {
-    "url": "https://github.com/GusRuss89/mdi-react"
+    "url": "https://github.com/GusRuss89/mdi-preact"
   },
-  "homepage": "https://github.com/GusRuss89/mdi-react",
+  "homepage": "https://github.com/GusRuss89/mdi-preact",
   "peerDependencies": {
     "preact": "^8.2.5"
   }
