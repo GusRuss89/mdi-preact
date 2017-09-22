@@ -4,14 +4,14 @@
   "version": "1.2.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/levrik/mdi-react.git"
+    "url": "git@github.com:GusRuss89/mdi-preact.git"
   },
-  "author": "Levin Rickert <me@levrik.io>",
+  "author": "Angus Russell <angus.russell89@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/levrik/mdi-react/issues"
+    "url": "https://github.com/GusRuss89/mdi-preact/issues"
   },
-  "homepage": "https://github.com/levrik/mdi-react",
+  "homepage": "https://github.com/GusRuss89/mdi-preact",
   "scripts": {
     "clean": "rimraf build && rimraf publish/*.js",
     "build": "git submodule update --init && yarn run clean && mkdir build && node scripts/generate.js && babel build --out-dir publish"

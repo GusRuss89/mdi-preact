@@ -17,7 +17,7 @@
   "scripts": {
     "prepublish": "cd .. && yarn build && cd publish && cp ../README.md README.md && cp ../LICENSE LICENSE"
   },
-  "author": "Angus Russell <angus@syntropy.xyz>",
+  "author": "Angus Russell <angus.russell89@gmail.com>",
   "license": "(MIT AND OFL-1.1)",
   "bugs": {
     "url": "https://github.com/GusRuss89/mdi-preact"
