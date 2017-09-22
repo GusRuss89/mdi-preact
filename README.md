@@ -1,4 +1,4 @@
-# mdi-preact [![npm package](https://img.shields.io/npm/v/mdi-react.svg?style=flat-square)](https://npmjs.org/package/mdi-react)
+# mdi-preact [![npm package](https://img.shields.io/npm/v/mdi-preact.svg?style=flat-square)](https://npmjs.org/package/mdi-preact)
 [Material Design Icons](https://materialdesignicons.com) for Preact packaged as single components
 
 Forked from [mdi-react](https://github.com/levrik/mdi-react) and updated to work with Preact.
